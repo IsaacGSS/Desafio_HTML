@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <meta name="description" content="Nesse desafio você deve criar um glossário com com no mínimo 4 tags HTML e suas definições.">
+  <link rel="stylesheet" href="/Style/Form_contact.css">
+  <link rel="stylesheet" href="/Style/Mobile.css">
+  <link rel="shortcut icon" href="https://efficient-sloth-d85.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F25230092-b58e-4d79-967c-7e2942ecfb0d%2FO_Guia_Estelar_de_HTML.png?table=block&id=03e398f3-c3e6-42b0-a17c-344aa354601f&spaceId=08f749ff-d06d-49a8-a488-9846e081b224&width=250&userId=&cache=v2" type="image/x-icon">
+  <title>Formulário de contato</title>
+</head>
+<body>
+
+  <main>
+
+    <a 
+    class="Home"
+    href="../index.html">
+      Home
+    </a>
+
+    <h1 id="formulario">Formulário de contato</h1>
+
+    <form action="">
+
+      <fieldset>
+        <legend>Entre em Contato</legend>
+
+        <div>
+          <label for="assunto">Assunto:</label>
+
+          <select name="assunto" id="assunto">
+
+            <option value="volvo">Suport</option>
+            <option value="saab">Contrato</option>
+            <option value="mercedes">Montagem</option>
+            <option value="audi">Configuração</option>
+
+          </select>
+        </div> <br>
+
+        <div>
+          <label for="name_complete">Nome Completo:</label>
+          <br>
+          <input
+          type="text"
+          name="nome"
+          id="name_complete"
+          placeholder="Seu Nome">
+        </div>  <br>
+
+        <div>
+          <label for="email">E-mail:</label> <br>
+
+          <input 
+          type="email" 
+          name="contact_email" 
+          id="email"
+          placeholder="email@example.com">
+        </div>  <br>
+
+        <div>
+          <label for="mensagem">Mensagem:</label>
+          <br>
+          <textarea 
+          type="text" 
+          name="mensagem" 
+          id="mensagem"
+          cols="30" rows="10"></textarea>
+        </div>  <br>
+
+        <div>
+          <input
+          type="checkbox"
+          name="mensagemEmEmail"
+          id="mensagemEmEmail"
+          > Aceito receber novidade por E-mail
+        </div>  <br>
+
+        <button>Enviar</button>
+        
+      </fieldset>
+
+    </form>
+
+  </main>
+  
+</body>
+</html>

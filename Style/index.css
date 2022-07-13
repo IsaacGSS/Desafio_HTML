@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+
+  width: 100vw;
+  height: 100vh;
+  
+  font-family:'Roboto', monoespaço;
+
+  align-items: center;
+
+  background-color: #A020F0;
+}
+
+
+main{
+  display: flex;
+
+  width: 400px; 
+  min-height: 80%;
+
+  margin: 0 auto;
+  padding: 15px  25px;
+  
+  flex-direction: column;
+  justify-content: space-around;
+
+  border-radius: 15px;
+
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.192);
+
+  color: #fff;
+  background-color: #29292e;
+}
+
+h1{
+  color: #ffa500;
+}
+
+p{
+  padding-left: 5px;
+}
+
+
+ul{
+  height: 450px;
+
+  list-style: none;
+  padding-left: 5px;
+  margin-top: 15px;
+} 
+
+  a{
+    
+    text-decoration: none;
+    color: #000000;
+  }
+
+  a.Home, button{
+    width: 62px;
+
+    padding: 1px 10px;
+  
+    border-radius: 15px;
+  
+    font-family: 'Roboto mono', monospace;
+    font-weight: bold;
+    
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+  
+    border: solid 2px #fff;
+    transition: all linear .2s;
+  } main a.Home:hover, button:hover{
+    color: #000;
+    background-color: #fff;
+  }
+
+    li{
+      margin: 5px 0;
+      padding: 5px;
+
+      border-radius: 5px;
+
+      font-weight: bold;
+
+      background-color: #f0f8ff;
+
+      transition: all ease .5s;
+    } li:hover{
+      margin: -15px 5px 1.5em -10px;
+      
+      border-radius: 10px 10px 10px 0;
+
+      font-size: 1.05em;
+
+      border: solid 1px #000000;
+
+      box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.247);
+
+      background-color: #f0f8ffec;
+    }
+
+      ul li a p{
+        min-width: 300px;
+        padding: 5px 15px 0 35px;
+
+        text-transform: uppercase;
+        text-align: justify;
+
+        font: 400 .85em 'Roboto Mono', monoespaço; 
+        color: #0000009a;
+      }
+
+
+footer{
+  height: 100%;
+  justify-items: end;
+
+  align-items: flex-end;
+  text-align: center;
+}
